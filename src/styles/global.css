@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f26c0d;
+  --color-primary-alt: #ec1337;
+  --color-background-light: #f8f7f5;
+  --color-background-dark: #221710;
+  --font-display: "Noto Serif", serif;
+  --font-sans: "Noto Sans", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+}
+
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-display {
+  font-family: var(--font-display);
+}
