@@ -105,42 +105,72 @@
       "username": "manager1",
       "password": "password123",
       "fullName": "Quản Lý Một",
-      "role": "manager"
+      "role": "manager",
+      "email": "manager1@saigonlumiere.com",
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
     },
     {
       "id": "manager_2",
       "username": "manager2",
       "password": "password123",
       "fullName": "Quản Lý Hai",
-      "role": "manager"
+      "role": "manager",
+      "email": "manager2@saigonlumiere.com",
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
     },
     {
       "id": "chef_1",
       "username": "chef1",
       "password": "password123",
       "fullName": "Đầu Bếp Một",
-      "role": "chef"
+      "role": "chef",
+      "email": "chef1@saigonlumiere.com",
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
     },
     {
       "id": "chef_2",
       "username": "chef2",
       "password": "password123",
       "fullName": "Đầu Bếp Hai",
-      "role": "chef"
+      "role": "chef",
+      "email": "chef2@saigonlumiere.com",
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
     },
     {
       "id": "waiter_1",
       "username": "waiter1",
       "password": "password123",
       "fullName": "Phục Vụ Một",
-      "role": "waiter"
+      "role": "waiter",
+      "email": "waiter1@saigonlumiere.com",
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
     },
     {
       "id": "waiter_2",
       "username": "waiter2",
       "password": "password123",
       "fullName": "Phục Vụ Hai",
-      "role": "waiter"
+      "role": "waiter",
+      "email": "waiter2@saigonlumiere.com",
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
+    },
+    {
+      "id": "admin_1",
+      "username": "admin1",
+      "password": "123123123",
+      "fullName": "Quản Trị Hệ Thống 1",
+      "role": "admin",
+      "email": "admin1@saigonlumiere.com",
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
+    },
+    {
+      "id": "admin_2",
+      "username": "admin2",
+      "password": "password123",
+      "fullName": "Quản Trị Hệ Thống 2",
+      "role": "admin",
+      "email": "admin2@saigonlumiere.com",
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
     }
   ],
   "tables": [

@@ -34,8 +34,18 @@ export default function LandingPage() {
                 <div className="relative overflow-hidden rounded-xl bg-slate-100 border border-slate-200 h-full min-h-[500px] flex flex-col items-center justify-center p-8 text-center group/hero transition-all flex-1">
                     <div className="absolute inset-0 opacity-10 pointer-events-none transition-opacity duration-1000 group-hover/hero:opacity-20 z-20" style={{ backgroundImage: 'radial-gradient(circle at center, var(--color-primary) 0%, transparent 70%)' }}></div>
                     <div className="absolute inset-0 z-10 bg-black/40"></div>
-                    <div className="absolute inset-0 z-0 overflow-hidden">
+                    <div className="absolute inset-0 z-0 overflow-hidden rounded-xl">
                         <img src="/src/assets/images/image_landing_page.jpg" className="w-full h-full object-cover transition-transform duration-1000 group-hover/hero:scale-105" />
+                    </div>
+
+                    {/* Top Right Auth Buttons */}
+                    <div className="absolute top-6 right-6 z-30 flex gap-4">
+                        <Link to="/login" className="bg-black/20 hover:bg-black/40 backdrop-blur-md text-white border border-white/30 px-5 py-2 rounded-full font-semibold transition-all shadow-lg hover:border-white/50 text-sm tracking-wide">
+                            Đăng Nhập
+                        </Link>
+                        <Link to="/register" className="bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/30 px-5 py-2 rounded-full font-semibold transition-all text-sm tracking-wide">
+                            Đăng Ký
+                        </Link>
                     </div>
 
                     <motion.div
@@ -62,12 +72,9 @@ export default function LandingPage() {
                             </p>
                         </motion.div>
 
-                        <motion.div variants={fadeInUp} className="mt-12 flex flex-col sm:flex-row gap-4 relative z-10">
-                            <Link to="/menu" className="bg-primary text-white border-2 border-primary px-8 py-3 rounded-lg font-bold hover:bg-primary/90 hover:scale-105 transition-transform flex items-center justify-center gap-2 shadow-xl shadow-black/50 uppercase text-sm tracking-wide">
+                        <motion.div variants={fadeInUp} className="mt-12 flex flex-col sm:flex-row gap-4 relative z-10 w-full md:w-auto items-center justify-center">
+                            <Link to="/login" className="w-full sm:w-auto bg-primary text-white border-2 border-primary px-8 py-3 rounded-lg font-bold hover:bg-primary/90 hover:scale-105 transition-transform flex items-center justify-center gap-2 shadow-xl shadow-black/50 uppercase text-sm tracking-wide">
                                 <span className="material-symbols-outlined text-sm">restaurant_menu</span> Khám Phá Thực Đơn
-                            </Link>
-                            <Link to="/login" className="bg-white text-slate-900 border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-slate-100 hover:scale-105 transition-transform flex items-center justify-center shadow-xl shadow-black/50 uppercase text-sm tracking-wide">
-                                Đặt Bàn Ngay
                             </Link>
                         </motion.div>
                     </motion.div>
@@ -156,7 +163,7 @@ export default function LandingPage() {
                             <li>✨ Thịt bò Wagyu thượng hạng nướng than Hoa</li>
                             <li>✨ Các món tráng miệng kiểu Pháp kết hợp Á Đông</li>
                         </ul>
-                        <Link to="/menu" className="mt-4 bg-primary text-white px-8 py-3 rounded-lg font-bold hover:scale-105 transition-transform w-max shadow-md shadow-primary/30 uppercase text-sm tracking-wide">
+                        <Link to="/login" className="mt-4 bg-primary text-white px-8 py-3 rounded-lg font-bold hover:scale-105 transition-transform w-max shadow-md shadow-primary/30 uppercase text-sm tracking-wide">
                             Xem Thực Đơn Đầy Đủ
                         </Link>
                     </motion.div>
