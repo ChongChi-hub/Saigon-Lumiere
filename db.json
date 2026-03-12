@@ -1,1 +1,328 @@
-{}
+{
+  "categories": [
+    {
+      "id": "cat_1",
+      "name": "Khởi Vị",
+      "description": "Các món khai vị nhẹ nhàng",
+      "image": "/src/assets/images/image_thuc_don.jpg"
+    },
+    {
+      "id": "cat_2",
+      "name": "Món Chính",
+      "description": "Các món chính đặc sắc",
+      "image": "/src/assets/images/image_thuc_don.jpg"
+    },
+    {
+      "id": "cat_3",
+      "name": "Tráng Miệng",
+      "description": "Món ngọt kết thúc bữa ăn",
+      "image": "/src/assets/images/image_thuc_don.jpg"
+    },
+    {
+      "id": "cat_4",
+      "name": "Thức Uống",
+      "description": "Rượu vang và đồ uống các loại",
+      "image": "/src/assets/images/image_thuc_don.jpg"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "item_1",
+      "categoryId": "cat_1",
+      "name": "Súp Hải Sản Truffle",
+      "description": "Súp hải sản nấu với nấm Truffle cao cấp",
+      "price": 250000,
+      "isAvailable": true,
+      "image": "/src/assets/images/nghe_thuat_tren_dia.jpg"
+    },
+    {
+      "id": "item_2",
+      "categoryId": "cat_1",
+      "name": "Salad Cá Hồi",
+      "description": "Salad cá hồi Na Uy tươi sốt chanh dây",
+      "price": 180000,
+      "isAvailable": true,
+      "image": "/src/assets/images/nghe_thuat_tren_dia.jpg"
+    },
+    {
+      "id": "item_3",
+      "categoryId": "cat_2",
+      "name": "Bò Wagyu A5 Áp Chảo",
+      "description": "Bò Wagyu A5 Nhật Bản với măng tây",
+      "price": 1500000,
+      "isAvailable": true,
+      "image": "/src/assets/images/nghe_thuat_tren_dia.jpg"
+    },
+    {
+      "id": "item_4",
+      "categoryId": "cat_2",
+      "name": "Tôm Hùm Bỏ Lò Phô Mai",
+      "description": "Tôm hùm Canada nướng phô mai đút lò",
+      "price": 1200000,
+      "isAvailable": true,
+      "image": "/src/assets/images/nghe_thuat_tren_dia.jpg"
+    },
+    {
+      "id": "item_5",
+      "categoryId": "cat_3",
+      "name": "Bánh Tiramisu",
+      "description": "Bánh Tiramisu Ý truyền thống",
+      "price": 120000,
+      "isAvailable": true,
+      "image": "/src/assets/images/nghe_thuat_tren_dia.jpg"
+    },
+    {
+      "id": "item_6",
+      "categoryId": "cat_3",
+      "name": "Macaron Pháp",
+      "description": "Bánh Macaron các vị",
+      "price": 150000,
+      "isAvailable": true,
+      "image": "/src/assets/images/nghe_thuat_tren_dia.jpg"
+    },
+    {
+      "id": "item_7",
+      "categoryId": "cat_4",
+      "name": "Rượu Vang Đỏ Chateau",
+      "description": "Rượu vang đỏ cao cấp từ Pháp",
+      "price": 2500000,
+      "isAvailable": true,
+      "image": "/src/assets/images/ruou_vang_phap.jpg"
+    },
+    {
+      "id": "item_8",
+      "categoryId": "cat_4",
+      "name": "Nước Ép Dưa Hấu",
+      "description": "Nước ép dưa hấu tươi",
+      "price": 80000,
+      "isAvailable": true,
+      "image": "/src/assets/images/nghe_thuat_tren_dia.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "manager_1",
+      "username": "manager1",
+      "password": "password123",
+      "fullName": "Quản Lý Một",
+      "role": "manager"
+    },
+    {
+      "id": "manager_2",
+      "username": "manager2",
+      "password": "password123",
+      "fullName": "Quản Lý Hai",
+      "role": "manager"
+    },
+    {
+      "id": "chef_1",
+      "username": "chef1",
+      "password": "password123",
+      "fullName": "Đầu Bếp Một",
+      "role": "chef"
+    },
+    {
+      "id": "chef_2",
+      "username": "chef2",
+      "password": "password123",
+      "fullName": "Đầu Bếp Hai",
+      "role": "chef"
+    },
+    {
+      "id": "waiter_1",
+      "username": "waiter1",
+      "password": "password123",
+      "fullName": "Phục Vụ Một",
+      "role": "waiter"
+    },
+    {
+      "id": "waiter_2",
+      "username": "waiter2",
+      "password": "password123",
+      "fullName": "Phục Vụ Hai",
+      "role": "waiter"
+    }
+  ],
+  "tables": [
+    {
+      "id": "table_1",
+      "name": "Bàn 1",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_2",
+      "name": "Bàn 2",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_3",
+      "name": "Bàn 3",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_4",
+      "name": "Bàn 4",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_5",
+      "name": "Bàn 5",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_6",
+      "name": "Bàn 6",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_7",
+      "name": "Bàn 7",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_8",
+      "name": "Bàn 8",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_9",
+      "name": "Bàn 9",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_10",
+      "name": "Bàn 10",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_11",
+      "name": "Bàn 11",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_12",
+      "name": "Bàn 12",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_13",
+      "name": "Bàn 13",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_14",
+      "name": "Bàn 14",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_15",
+      "name": "Bàn 15",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_16",
+      "name": "Bàn 16",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_17",
+      "name": "Bàn 17",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_18",
+      "name": "Bàn 18",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_19",
+      "name": "Bàn 19",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_20",
+      "name": "Bàn 20",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_21",
+      "name": "Bàn 21",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_22",
+      "name": "Bàn 22",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_23",
+      "name": "Bàn 23",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_24",
+      "name": "Bàn 24",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_25",
+      "name": "Bàn 25",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_26",
+      "name": "Bàn 26",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_27",
+      "name": "Bàn 27",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_28",
+      "name": "Bàn 28",
+      "capacity": 2,
+      "status": "available"
+    },
+    {
+      "id": "table_29",
+      "name": "Bàn 29",
+      "capacity": 4,
+      "status": "available"
+    },
+    {
+      "id": "table_30",
+      "name": "Bàn 30",
+      "capacity": 2,
+      "status": "available"
+    }
+  ]
+}
