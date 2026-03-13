@@ -5,6 +5,7 @@ import LandingPage from "../pages/LandingPage/LandingPage";
 import LoginPage from "../pages/LoginPage/LoginPage";
 import RegisterPage from "../pages/RegisterPage/RegisterPage";
 import DashboardPage from "../pages/Dashboard/DashboardPage";
+import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
 
 export default function AppRoutes() {
     return (
@@ -23,7 +24,7 @@ export default function AppRoutes() {
             </Route>
 
             {/* Fallback route */}
-            <Route path="*" element={<div className="p-8 text-center text-xl">404 - Không tìm thấy trang</div>} />
+            <Route path="*" element={<NotFoundPage />} />
         </Routes>
     );
 }

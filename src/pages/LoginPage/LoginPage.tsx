@@ -73,17 +73,18 @@ export default function LoginPage() {
             message.success({
                 content: "Xác thực thành công!",
                 style: {
-                    marginTop: '5vh',
+                    marginTop: '10px',
                     fontSize: '16px',
                 },
             });
             
-            navigate("/dashboard");
+            const user = users[0];
+            navigate(`/${user.role}`);
         } catch (error) {
             console.error("Login error:", error);
             message.error({
                  content: "Đã có lỗi xảy ra. Vui lòng thử lại sau.",
-                 style: { marginTop: '5vh', fontSize: '16px' }
+                 style: { marginTop: '10px', fontSize: '16px' }
             });
         } finally {
             setIsLoading(false);
