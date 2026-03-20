@@ -5,9 +5,13 @@
   --color-primary-alt: #ec1337;
   --color-background-light: #f8f7f5;
   --color-background-dark: #221710;
+  --color-admin-primary: #f10e34;
+  --color-admin-bg-light: #f8f5f6;
+  --color-admin-bg-dark: #221013;
   --font-display: "Noto Serif", serif;
   --font-sans: "Noto Sans", sans-serif;
   --font-manrope: "Manrope", sans-serif;
+  --font-admin-display: "Inter", sans-serif;
 }
 
 

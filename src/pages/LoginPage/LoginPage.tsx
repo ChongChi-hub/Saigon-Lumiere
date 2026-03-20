@@ -29,7 +29,7 @@ export default function LoginPage() {
 
         if (!email) {
             newErrors.email = "Vui lòng nhập email";
-        } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        } else if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)) {
             newErrors.email = "Địa chỉ email không hợp lệ";
         }
 
@@ -79,7 +79,9 @@ export default function LoginPage() {
             });
             
             const user = users[0];
-            navigate(`/${user.role}`);
+            localStorage.setItem("currentUser", JSON.stringify(user));
+            const destinationPath = user.role === 'admin' ? '/admin/dashboard' : `/${user.role}`;
+            navigate(destinationPath);
         } catch (error) {
             console.error("Login error:", error);
             message.error({
@@ -99,6 +101,13 @@ export default function LoginPage() {
     const handlePasswordChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setPassword(e.target.value);
         if (errors.password) setErrors({ ...errors, password: undefined });
+    };
+
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            handleLogin(e as unknown as React.FormEvent);
+        }
     };
 
     return (
@@ -154,9 +163,10 @@ export default function LoginPage() {
                                         required
                                         value={email}
                                         onChange={handleEmailChange}
+                                        onKeyDown={handleKeyDown}
                                         disabled={isLoading}
                                         className="flex w-full min-w-0 flex-1 bg-transparent border-none focus:outline-none focus:ring-0 text-[#1b0d10] h-14 placeholder:text-[#9a4c59]/50 pl-[15px] pr-3 text-base font-normal leading-normal disabled:opacity-50"
-                                        placeholder="chef@saigonlumiere.com"
+                                        placeholder="admin@lumiere.com"
                                         type="email"
                                     />
                                     <div className={`${errors.email ? 'text-red-500' : 'text-[#9a4c59]'} flex items-center justify-center pr-[15px]`}>
@@ -175,6 +185,7 @@ export default function LoginPage() {
                                         required
                                         value={password}
                                         onChange={handlePasswordChange}
+                                        onKeyDown={handleKeyDown}
                                         disabled={isLoading}
                                         className="flex w-full min-w-0 flex-1 bg-transparent border-none focus:outline-none focus:ring-0 text-[#1b0d10] h-14 placeholder:text-[#9a4c59]/50 pl-[15px] pr-3 text-base font-normal leading-normal disabled:opacity-50"
                                         placeholder="••••••••"

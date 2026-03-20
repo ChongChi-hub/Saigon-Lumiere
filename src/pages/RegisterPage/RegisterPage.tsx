@@ -69,7 +69,9 @@ export default function RegisterPage() {
                 email,
                 password,
                 username: email.split('@')[0], // Generate simple username
-                role: 'customer' // default role
+                role: 'customer', // default role
+                createdAt: new Date().toISOString(),
+                status: true
             });
 
             message.success({

@@ -21,10 +21,10 @@ export default function NotFoundPage() {
                         <Button 
                             type="primary" 
                             size="large"
-                            onClick={() => navigate('/')}
+                            onClick={() => navigate(-1)}
                             className="bg-primary hover:bg-primary/90 hover:scale-105 transition-transform h-12 px-8 text-base font-semibold shadow-md shadow-primary/30"
                         >
-                            Quay Lại Trang Chủ
+                            Quay Lại Trang Trước
                         </Button>
                     }
                 />

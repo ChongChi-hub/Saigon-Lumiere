@@ -107,7 +107,10 @@
       "fullName": "Quản Lý Một",
       "role": "manager",
       "email": "manager1@saigonlumiere.com",
-      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg",
+      "status": true,
+      "phone": "0901234567",
+      "createdAt": "2024-01-15T08:30:00.000Z"
     },
     {
       "id": "manager_2",
@@ -116,7 +119,10 @@
       "fullName": "Quản Lý Hai",
       "role": "manager",
       "email": "manager2@saigonlumiere.com",
-      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg",
+      "status": true,
+      "phone": "0912345678",
+      "createdAt": "2024-02-20T09:15:00.000Z"
     },
     {
       "id": "chef_1",
@@ -125,7 +131,10 @@
       "fullName": "Đầu Bếp Một",
       "role": "chef",
       "email": "chef1@saigonlumiere.com",
-      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg",
+      "status": true,
+      "phone": "0923456789",
+      "createdAt": "2024-03-01T10:00:00.000Z"
     },
     {
       "id": "chef_2",
@@ -134,7 +143,10 @@
       "fullName": "Đầu Bếp Hai",
       "role": "chef",
       "email": "chef2@saigonlumiere.com",
-      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg",
+      "status": false,
+      "phone": "0934567890",
+      "createdAt": "2024-03-10T11:45:00.000Z"
     },
     {
       "id": "waiter_1",
@@ -143,7 +155,10 @@
       "fullName": "Phục Vụ Một",
       "role": "waiter",
       "email": "waiter1@saigonlumiere.com",
-      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg",
+      "status": true,
+      "phone": "0945678901",
+      "createdAt": "2024-04-05T14:20:00.000Z"
     },
     {
       "id": "waiter_2",
@@ -152,16 +167,22 @@
       "fullName": "Phục Vụ Hai",
       "role": "waiter",
       "email": "waiter2@saigonlumiere.com",
-      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg",
+      "status": false,
+      "phone": "0956789012",
+      "createdAt": "2024-04-12T16:10:00.000Z"
     },
     {
       "id": "admin_1",
       "username": "admin1",
       "password": "123123123",
-      "fullName": "Quản Trị Hệ Thống 1",
+      "fullName": "Trọng Trí",
       "role": "admin",
-      "email": "admin1@saigonlumiere.com",
-      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
+      "email": "admin@gmail.com",
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773368651/1_1_y0cvnd.webp",
+      "status": true,
+      "phone": "0913444251",
+      "createdAt": "2023-10-01T07:00:00.000Z"
     },
     {
       "id": "admin_2",
@@ -170,7 +191,10 @@
       "fullName": "Quản Trị Hệ Thống 2",
       "role": "admin",
       "email": "admin2@saigonlumiere.com",
-      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg"
+      "avatar": "https://res.cloudinary.com/dj6kb7ej4/image/upload/v1773281288/avatar-default_q3ntch.svg",
+      "status": true,
+      "phone": "0998765432",
+      "createdAt": "2023-11-20T08:15:00.000Z"
     }
   ],
   "tables": [
